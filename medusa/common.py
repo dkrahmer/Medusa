@@ -76,14 +76,14 @@ NOTIFY_LOGIN_TEXT = 7
 NOTIFY_SNATCH_PROPER = 8
 
 notifyStrings = {
-    NOTIFY_SNATCH: 'Started Download',
-    NOTIFY_DOWNLOAD: 'Download Finished',
+    NOTIFY_SNATCH: 'Snatched',
+    NOTIFY_DOWNLOAD: 'Downloaded',
     NOTIFY_SUBTITLE_DOWNLOAD: 'Subtitle Download Finished',
     NOTIFY_GIT_UPDATE: 'Medusa Updated',
     NOTIFY_GIT_UPDATE_TEXT: 'Medusa Updated To Commit#: ',
     NOTIFY_LOGIN: 'Medusa new login',
     NOTIFY_LOGIN_TEXT: 'New login from IP: {0}. http://geomaplookup.net/?ip={0}',
-    NOTIFY_SNATCH_PROPER: 'Started Proper Download'
+    NOTIFY_SNATCH_PROPER: 'Snatched Proper'
 }
 
 # Episode statuses

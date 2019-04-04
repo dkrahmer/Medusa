@@ -78,7 +78,7 @@ NOTIFY_SNATCH_PROPER = 8
 notifyStrings = {
     NOTIFY_SNATCH: 'Snatched',
     NOTIFY_DOWNLOAD: 'Downloaded',
-    NOTIFY_SUBTITLE_DOWNLOAD: 'Subtitle Download Finished',
+    NOTIFY_SUBTITLE_DOWNLOAD: 'Subtitle Downloaded',
     NOTIFY_GIT_UPDATE: 'Medusa Updated',
     NOTIFY_GIT_UPDATE_TEXT: 'Medusa Updated To Commit#: ',
     NOTIFY_LOGIN: 'Medusa new login',

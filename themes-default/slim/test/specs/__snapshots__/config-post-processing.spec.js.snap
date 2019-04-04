@@ -239,14 +239,14 @@ exports[`ConfigPostProcessing.test.js renders 1`] = `
                       <input
                         class="form-control input-sm input75"
                         id="autopostprocessor_frequency"
-                        min="10"
+                        min="1"
                         name="autopostprocessor_frequency"
                         step="1"
                         type="number"
                       />
                        
                       <span>
-                        Time in minutes to check for new files to auto post-process (min 10)
+                        Time in minutes to check for new files to auto post-process (min 1)
                       </span>
                     </div>
                   </div>

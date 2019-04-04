@@ -60,8 +60,8 @@
                                                 <span>Auto Post-Processing Frequency</span>
                                             </label>
                                             <div class="col-sm-10 content">
-                                                <input type="number" min="10" step="1" name="autopostprocessor_frequency" id="autopostprocessor_frequency" v-model.number="postProcessing.autoPostprocessorFrequency" class="form-control input-sm input75" />
-                                                <span>Time in minutes to check for new files to auto post-process (min 10)</span>
+                                                <input type="number" min="1" step="1" name="autopostprocessor_frequency" id="autopostprocessor_frequency" v-model.number="postProcessing.autoPostprocessorFrequency" class="form-control input-sm input75" />
+                                                <span>Time in minutes to check for new files to auto post-process (min 1)</span>
                                             </div>
                                         </div>
                                     </div> <!-- End of content wrapper -->

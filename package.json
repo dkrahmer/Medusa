@@ -3,7 +3,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PyMedusa/Medusa.git"
+    "url": "git+https://github.com/dkrahmer/Medusa.git"
   },
   "bugs": {
     "url": "https://github.com/PyMedusa/Medusa/issues"

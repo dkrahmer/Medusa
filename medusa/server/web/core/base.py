@@ -75,7 +75,7 @@ class PageTemplate(MakoTemplate):
         lookup = get_lookup()
         self.template = lookup.get_template(filename)
 
-        base_url = (rh.request.headers.get('X-Forwarded-Proto', rh.request.protocol) + '://' +
+        base_url = ('//' + # protocol relatvie path (allow https over stunnel, etc)
                     rh.request.headers.get('X-Forwarded-Host', rh.request.host))
 
         self.arguments = {

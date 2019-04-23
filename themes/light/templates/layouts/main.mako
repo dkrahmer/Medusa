@@ -13,6 +13,7 @@
         <meta name="theme-color" content="#333333">
         <title>Medusa${(' - ' + title) if title and title != 'FixME' else ''}</title>
         <base href="${base_url}">
+        <script type="text/javascript">document.getElementsByTagName("base")[0].href = document.getElementsByTagName("base")[0].href;</script>
         <%block name="metas" />
         <link rel="shortcut icon" href="images/ico/favicon.ico?v=2">
         <link rel="icon" sizes="16x16 32x32 64x64" href="images/ico/favicon.ico">
